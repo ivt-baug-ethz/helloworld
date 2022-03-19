@@ -1,0 +1,16 @@
+Package: helloworld
+Title: Hello ivt-baug-ethz World
+Version: 0.0.0.9000
+Authors@R: 
+    person("Daniel", "Heimgartner", , "daniel.heimgartner@ivt.baug.ethz.ch", role = c("aut", "cre"))
+Description: Tutorial to familiarize yourself with the ivt-baug-ethz GitHub workflow.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

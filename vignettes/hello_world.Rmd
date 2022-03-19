@@ -1,0 +1,40 @@
+---
+title: "Hello World"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{hello_world}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Intention
+
+This package is intended to familiarize yourself with the standard workflow when contributing to the ivt-baug-ethz GitHub organization.
+
+> Corresponds to `Case 2` as described on the organization's wiki page.
+
+## Workflow
+
+1. You landed here because you have cloned the helloworld repository from the organization. This is a simple package which you are now about to extend.
+In order to load the package's functionality run `devtools::load_all()` in your console (this is similar to `library(helloworld)`, if you had installed the package from the organization via `install.packages(ivt-baug-ethz/helloworld`). But at this stage, we don't want to install the package, i.e. use its functionality, but we want to contribute to the package, i.e. extend its functionality.
+
+2. Run `devtools::document()` which will generate the manual pages for the package.
+
+3. You are now about to extend the function `hello_world`. Run `?hello_world` to render its documentation.
+
+4. Open the R file `R/hello_world.R` and add your name to the print statement. Extend the roxygen skeletton with your favourite food.
+
+5. Test your work: `devtools::load_all()`, `devtools::document()` (and check that your favourite food is indeed there when you type again `?hello_world`) and finally run the function via `helloworld::hello_world()` which now prints your name to the console - nice!
+
+6. Now, we are about to push our changes back to the github repo (caveat: if you would implement serious changes it would be best to branch first and discuss your changes with the repo owner before you merge...). Switch to the terminal and type:
+
+```bash
+git status
+git add .
+git commit -m "Added <your name> to the function hello_world"
+git push
+```
+
+7. Done with the work! Now we can leverage the great functionality! Open a new RSession and install the now updated package via `devtools::install_github("ivt-baug-ethz/helloworld")` (this installs your package exactly as if it would live on the official CRAN and be installed via `install.packages()`. Load the library `library(helloworld)` and enjoy all your colleagues work!
+
+That's it!
