@@ -6,7 +6,7 @@ Tutorial repo to familiarize you with the basic workflow of contributing to a R 
 
 We first clone the repository, then open it in your favourite IDE (i.e. RStudio), extend a function and commit our changes back to the repo.
 
-This corresponds to `Case 2` as mentioned on the main wiki page.
+This corresponds to `Case 1` as mentioned on the main wiki page.
 
 
 1. Clone the repository
