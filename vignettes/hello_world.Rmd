@@ -11,7 +11,7 @@ vignette: >
 
 This package is intended to familiarize yourself with the standard workflow when contributing to the ivt-baug-ethz GitHub organization.
 
-> Corresponds to `Case 2` as described on the organization's wiki page.
+> Corresponds to `Case 1` as described on the organization's wiki page.
 
 ## Workflow
 
