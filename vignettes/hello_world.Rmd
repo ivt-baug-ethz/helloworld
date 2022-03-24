@@ -16,7 +16,7 @@ This package is intended to familiarize yourself with the standard workflow when
 ## Workflow
 
 1. You landed here because you have cloned the helloworld repository from the organization. This is a simple package which you are now about to extend.
-In order to load the package's functionality run `devtools::load_all()` in your console (this is similar to `library(helloworld)`, if you had installed the package from the organization via `install.packages(ivt-baug-ethz/helloworld`). But at this stage, we don't want to install the package, i.e. use its functionality, but we want to contribute to the package, i.e. extend its functionality.
+In order to load the package's functionality run `devtools::load_all()` in your console (this is similar to `library(helloworld)`, if you had installed the package from the organization via `devtools::install_github(ivt-baug-ethz/helloworld`). But at this stage, we don't want to install the package, i.e. use its functionality, but we want to contribute to the package, i.e. extend its functionality.
 
 2. Run `devtools::document()` which will generate the manual pages for the package.
 
